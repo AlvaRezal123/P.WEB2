@@ -40,6 +40,41 @@ echo $Dosen1->tampilkandosen();
 ```
 Objek Dosen baru ($Dosen1) dibuat dengan nama "Abdau", NIP "230202039", dan matakuliah "Pweb2". Kemudian, metode tampilkandosen dipanggil untuk menampilkan informasi dosen tersebut.
 
+### 6). Metode meng-update jurusan
+```sh
+public function updatejurusan() {
+    $this->jurusan = $jurusan;
+}
+```
+ menerima parameter $jurusan untuk memperbarui nilai properti jurusan.
+ ### 7). Metode getNim
+```sh
+public function getNim() {
+    return $this->nim;
+}
+```
+Metode ini mengembalikan nilai dari properti nim.Metode ini mengembalikan nilai dari properti nim.
+### 8). Metode setNim
+```sh
+public function setNim($nim) {
+    $this->nim = $nim;
+}
+```
+Metode ini menerima parameter $nim dan mengatur nilai properti nim dengan parameter tersebut.
+### 9). Instansiasi dan Penggunaan Kelas
+```sh
+$baru = new Mahasiswa("Muhammad Alva Rezal", "230202039", "Komputer dan Bisnis");
+$baru->setNim("1234");
+echo $baru->tampilkandata();
+```
+- Sebuah objek baru Mahasiswa dibuat dengan nama "Muhammad Alva Rezal", NIM "230202039", dan jurusan "Komputer dan Bisnis".
+  
+- Metode setNim dipanggil untuk mengubah NIM objek menjadi "1234".
+  
+- Metode tampilkandata dipanggil untuk menampilkan data mahasiswa. (Pastikan metode tampilkandata ada di dalam kelas Mahasiswa).
+
+
+
 ## 📎 Lampiran
 _berikut lampiran dari kodingan beserta hasil output nya_
 
