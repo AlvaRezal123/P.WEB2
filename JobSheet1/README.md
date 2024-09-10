@@ -249,28 +249,38 @@ $mahasiswa->aksesFitur();
 # 📎 Lampiran
 berikut merupakan script koding beserta output
 - class dan objek
+  
 ![alt](https://github.com/AlvaRezal123/P.WEB2/blob/main/JobSheet1/classandobject.PNG)
 - output
+  
 ![alt](https://github.com/AlvaRezal123/P.WEB2/blob/main/JobSheet1/11.PNG)
 
 - Encapulasi
+  
 ![alt](https://github.com/AlvaRezal123/P.WEB2/blob/main/JobSheet1/encapulasi.PNG)
 - Output
+
 ![alt](https://github.com/AlvaRezal123/P.WEB2/blob/main/JobSheet1/22.PNG)
 
 - Interhance
+  
 ![alt](https://github.com/AlvaRezal123/P.WEB2/blob/main/JobSheet1/interhance.PNG)
 - Output
+  
 ![alt](https://github.com/AlvaRezal123/P.WEB2/blob/main/JobSheet1/33.PNG)
 
 - Polymorpsh
+  
 ![alt](https://github.com/AlvaRezal123/P.WEB2/blob/main/JobSheet1/polymorpsh.PNG)
 - Output
+  
 ![alt](https://github.com/AlvaRezal123/P.WEB2/blob/main/JobSheet1/44.PNG)
 
 - Abstraction
+  
 ![alt](https://github.com/AlvaRezal123/P.WEB2/blob/main/JobSheet1/abstraction.PNG)
 - Output
+  
 ![alt](https://github.com/AlvaRezal123/P.WEB2/blob/main/JobSheet1/55.PNG)
 
 
