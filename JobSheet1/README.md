@@ -247,7 +247,7 @@ $mahasiswa->aksesFitur();
 - Objek Mahasiswa dibuat: Nama diatur dengan setNama dan aksesFitur menampilkan pesan khusus untuk mahasiswa.
 
 # 📎 Lampiran
-berikut merupakan script koding beserta output
+berikut merupakan script koding beserta outputnya :
 - class dan objek
   
 ![alt](https://github.com/AlvaRezal123/P.WEB2/blob/main/JobSheet1/classandobject.PNG)
