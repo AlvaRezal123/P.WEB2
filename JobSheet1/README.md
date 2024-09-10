@@ -246,6 +246,11 @@ $mahasiswa->aksesFitur();
 - Objek Dosen dibuat: Nama diatur dengan setNama dan aksesFitur menampilkan pesan khusus untuk dosen.
 - Objek Mahasiswa dibuat: Nama diatur dengan setNama dan aksesFitur menampilkan pesan khusus untuk mahasiswa.
 
+# 📎 Lampiran
+berikut merupakan script koding beserta output
+- class dan objek
+![alt](
+
 
 
 
