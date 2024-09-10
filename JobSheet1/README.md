@@ -194,6 +194,58 @@ $mahasiswa->aksesFitur();
 - Objek Pengguna: Memanggil aksesFitur menampilkan pesan umum.
 - Objek Dosen: Mengatur nama dengan setNama dan memanggil aksesFitur untuk menampilkan pesan khusus dosen.
 - Objek Mahasiswa: Mengatur nama dengan setNama dan memanggil aksesFitur untuk menampilkan pesan khusus mahasiswa.
+### E. Abstraction
+### 1). Definisi Kelas Pengguna (Abstrak):
+```sh
+abstract class Pengguna {
+    protected $nama, $nim, $nip;
+
+    abstract public function aksesFitur();
+
+    public function getNama() {
+        return $this->nama;
+    }
+
+    public function setNama($nama) {
+        $this->nama = $nama;
+    }
+}
+```
+- Kelas Pengguna adalah kelas abstrak: Tidak dapat diinstansiasi secara langsung.
+- Properti protected $nama, $nim, $nip: Dapat diakses oleh kelas itu sendiri dan kelas turunan.
+- Metode aksesFitur adalah metode abstrak: Harus diimplementasikan oleh kelas turunan.
+- Getter dan Setter untuk nama.
+### 2). Definisi Kelas Dosen
+```sh
+class Dosen extends Pengguna {
+    public function aksesFitur() {
+        echo "Akses fitur Dosen: " .$this->getNama(). "<br>";
+    }
+}
+```
+Kelas Dosen mengimplementasikan metode aksesFitur: Menampilkan pesan khusus untuk dosen.
+### 3). Definisi Kelas Mahasiswa
+```sh
+class Mahasiswa extends Pengguna {
+    public function aksesFitur() {
+        echo "Akses fitur Mahasiswa: " .$this->getNama(). " <br>";
+    }
+}
+```
+Kelas Mahasiswa mengimplementasikan metode aksesFitur: Menampilkan pesan khusus untuk mahasiswa
+### 4). Instansiasi dan Penggunaan Kelas
+```sh
+$dosen = new Dosen();
+$dosen->setNama("Pak Abdau");
+$dosen->aksesFitur();
+
+$mahasiswa = new Mahasiswa();
+$mahasiswa->setNama("Alva");
+$mahasiswa->aksesFitur();
+```
+- Objek Dosen dibuat: Nama diatur dengan setNama dan aksesFitur menampilkan pesan khusus untuk dosen.
+- Objek Mahasiswa dibuat: Nama diatur dengan setNama dan aksesFitur menampilkan pesan khusus untuk mahasiswa.
+
 
 
 
