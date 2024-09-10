@@ -42,6 +42,6 @@ Objek Dosen baru ($Dosen1) dibuat dengan nama "Abdau", NIP "230202039", dan mata
 
 ## 📎 Lampiran
 _berikut lampiran dari kodingan beserta hasil output nya_
-!(https://github.com/AlvaRezal123/P.WEB2/blob/main/Jobsheet2/Kodingan.PNG)
+![alt text](https://github.com/AlvaRezal123/P.WEB2/blob/main/Jobsheet2/Kodingan.PNG)
 
 
