@@ -44,7 +44,7 @@ echo $mahasiswa1->tampilkanData();
 - Objek mahasiswa baru ($mahasiswa1) dibuat dengan nama "Muhammad Alva Rezal", NIM "230202039", dan jurusan "Komputer dan Bisnis".
 - Metode tampilkanData dipanggil untuk menampilkan informasi mahasiswa.
 
-### B.Encapsulation
+### B. Encapsulation
 ### 1). Properti Privat
 ```sh
 private $nama;
@@ -139,7 +139,62 @@ echo $pengguna1->getmatakuliah();
 - Objek Dosen dibuat dengan nama "Abdau" dan mata kuliah "Andi P": Ini menggunakan konstruktor kelas Dosen yang juga memanggil konstruktor parent.
 - getNama dipanggil: Menampilkan nilai nama yang diwarisi dari kelas Pengguna.
 - getmatakuliah dipanggil: Menampilkan nilai matakuliah yang didefinisikan di kelas Dosen.
-- 
+
+### D. Polymorphism
+### 1). Definisi Kelas Pengguna
+```sh
+class Pengguna {
+    protected $nama, $nim, $nip;
+    
+    public function aksesFitur() {
+        echo "Akses fitur pengguna <br>";
+    }
+    public function getNama() {
+        return $this->nama;
+    }
+    public function setNama($nama) {
+        $this->nama = $nama;
+    }
+}
+```
+- Properti protected $nama, $nim, $nip: Dapat diakses oleh kelas itu sendiri dan kelas turunan.
+- Metode aksesFitur: Menampilkan pesan umum untuk pengguna.
+- Getter dan Setter untuk nama.
+### 2). Definisi Kelas Dosen
+```sh
+class Dosen extends Pengguna {
+    public function aksesFitur() {
+        echo "Akses fitur Dosen: " .$this->getNama(). "<br>";
+    }
+}
+```
+Metode aksesFitur: Menampilkan pesan khusus untuk dosen dengan nama yang diambil dari metode getNama.
+### 3). Definisi Kelas Mahasiswa
+```sh
+class Mahasiswa extends Pengguna {
+    public function aksesFitur() {
+        echo "Akses fitur Mahasiswa: " .$this->getNama(). " <br>";
+    }
+}
+```
+Metode aksesFitur: Menampilkan pesan khusus untuk mahasiswa dengan nama yang diambil dari metode getNama.
+### 4). Instansiasi dan Penggunaan Kelas
+```sh
+$pengguna = new Pengguna();
+$pengguna->aksesFitur();
+
+$dosen = new Dosen();
+$dosen->setNama("Pak Abdau");
+$dosen->aksesFitur();
+
+$mahasiswa = new Mahasiswa();
+$mahasiswa->setNama("Alva");
+$mahasiswa->aksesFitur();
+```
+- Objek Pengguna: Memanggil aksesFitur menampilkan pesan umum.
+- Objek Dosen: Mengatur nama dengan setNama dan memanggil aksesFitur untuk menampilkan pesan khusus dosen.
+- Objek Mahasiswa: Mengatur nama dengan setNama dan memanggil aksesFitur untuk menampilkan pesan khusus mahasiswa.
+
 
 
 
