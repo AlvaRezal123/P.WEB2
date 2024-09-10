@@ -15,17 +15,9 @@ NIM    : 🆔 230202039
 - [Jobsheet 2](https://github.com/AlvaRezal123/P.WEB2/tree/main/Jobsheet2)
 - [Jobsheet 3](https://link-to-software.com)
 
-
-
-
-
-
-
-markdown
-Copy code
 # 📌 Project Title
 
-![Project Banner](https://via.placeholder.com/1200x400.png) <!-- Ganti link ini dengan banner project Anda -->
+![Project Banner](https://via.placeholder.com/1200x400.png) 
 
 ## 🌟 Features
 - ✅ Feature 1
