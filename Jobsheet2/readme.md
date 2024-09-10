@@ -45,17 +45,17 @@ _berikut lampiran dari kodingan beserta hasil output nya_
 
 ### Intruksi
 
-- 💻 Kodingan
+💻 Kodingan
 
 ![alt text](https://github.com/AlvaRezal123/P.WEB2/blob/main/Jobsheet2/kodingan2.PNG)
-- 📊 Output
+📊 Output
 ![alt text](https://github.com/AlvaRezal123/P.WEB2/blob/main/Jobsheet2/otput2.PNG)
 ### Tugas
 
--💻 Kodingan
+💻 Kodingan
 
 ![alt text](https://github.com/AlvaRezal123/P.WEB2/blob/main/Jobsheet2/Kodingan.PNG)
-- 📊 Output
+📊 Output
   
 ![alt text](https://github.com/AlvaRezal123/P.WEB2/blob/main/Jobsheet2/uotput.PNG)
 
