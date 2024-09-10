@@ -15,7 +15,7 @@ NIM    : 🆔 230202039
 - [Jobsheet 2](https://github.com/AlvaRezal123/P.WEB2/tree/main/Jobsheet2)
 - [Jobsheet 3](https://link-to-software.com)
 
-# 📌 Project Title
+# 📌 Projek
 
 ![alt text](https://github.com/AlvaRezal123/P.WEB2/blob/main/php.png)
 
@@ -26,10 +26,10 @@ Polymorphism, Encapsulation, dan Abstraction adalah pilar penting yang membuat
 OOP efisien. Dengan menguasai konsep-konsep ini, pengembang dapat membuat kode
 yang lebih fleksibel, dapat digunakan kembali, dan mudah dipelihara.
 # 🎯 Tujuan 
-- ✅ Memahami dan menerapkan konsep Inheritance dalam PHP.
-- ✅ Menerapkan Polymorphism untuk mencapai fleksibilitas dalam kode.
-- ✅ Menggunakan Encapsulation untuk melindungi data dalam objek.
-- ✅ Mengimplementasikan Abstraction untuk menyederhanakan kompleksitas sistem.
+✅ Memahami dan menerapkan konsep Inheritance dalam PHP.
+✅ Menerapkan Polymorphism untuk mencapai fleksibilitas dalam kode.
+✅ Menggunakan Encapsulation untuk melindungi data dalam objek.
+✅ Mengimplementasikan Abstraction untuk menyederhanakan kompleksitas sistem.
 # ✍️ Authors
 - Muhammad Alva Rezal
 📧 ralfa9339@gmail.com
