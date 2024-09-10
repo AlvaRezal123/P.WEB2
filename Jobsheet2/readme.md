@@ -48,6 +48,7 @@ _berikut lampiran dari kodingan beserta hasil output nya_
 💻 Kodingan
 
 ![alt text](https://github.com/AlvaRezal123/P.WEB2/blob/main/Jobsheet2/kodingan2.PNG)
+
 📊 Output
 ![alt text](https://github.com/AlvaRezal123/P.WEB2/blob/main/Jobsheet2/otput2.PNG)
 ### Tugas
@@ -55,6 +56,7 @@ _berikut lampiran dari kodingan beserta hasil output nya_
 💻 Kodingan
 
 ![alt text](https://github.com/AlvaRezal123/P.WEB2/blob/main/Jobsheet2/Kodingan.PNG)
+
 📊 Output
   
 ![alt text](https://github.com/AlvaRezal123/P.WEB2/blob/main/Jobsheet2/uotput.PNG)
