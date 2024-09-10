@@ -17,23 +17,19 @@ NIM    : 🆔 230202039
 
 # 📌 Project Title
 
-![Project Banner]![https://i.ytimg.com/vi/JSX0HMYgtvc/maxresdefault.jpg]()
-) 
+![alt text](https://github.com/AlvaRezal123/P.WEB2/blob/main/php.png)
 
-## 🌟 Features
-- ✅ Feature 1
-- ✅ Feature 2
-- ✅ Feature 3
-
-## 🔧 Tech Stack
-- **Language:** [Insert Language(s)]
-- **Framework:** [Insert Framework(s)]
-- **Database:** [Insert Database(s)]
-- **Tools:** [Insert Tools]
-
-## 🚀 Getting Started
-
-### Prerequisites
-Pastikan Anda telah menginstal:
-- [Software 1](https://link-to-software.com)
-- [Software 2](https://link-to-software.com)
+# 📘 Pendahuluan
+Object-Oriented Programming (OOP) dalam PHP memungkinkan pengembangan
+perangkat lunak yang lebih terstruktur dan modular. Konsep-konsep seperti Inheritance,
+Polymorphism, Encapsulation, dan Abstraction adalah pilar penting yang membuat
+OOP efisien. Dengan menguasai konsep-konsep ini, pengembang dapat membuat kode
+yang lebih fleksibel, dapat digunakan kembali, dan mudah dipelihara.
+# 🎯 Tujuan 
+- ✅ Memahami dan menerapkan konsep Inheritance dalam PHP.
+- ✅ Menerapkan Polymorphism untuk mencapai fleksibilitas dalam kode.
+- ✅ Menggunakan Encapsulation untuk melindungi data dalam objek.
+- ✅ Mengimplementasikan Abstraction untuk menyederhanakan kompleksitas sistem.
+# ✍️ Authors
+- Muhammad Alva Rezal
+📧 ralfa9339@gmail.com
