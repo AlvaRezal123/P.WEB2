@@ -1,4 +1,4 @@
-#Jobsheet 1
+# Jobsheet 1
 _Mengidentifikasi dan Menjelaskan Prinsip Dasar OOP_
 ## 📖 Pendahuluan
 Dalam OOP, konsep dasar seperti class dan object digunakan untuk memodelkan masalah dunia nyata ke dalam kode program. Prinsip-
@@ -93,5 +93,53 @@ $mahasiswa1->tampilkandata();
 - Objek mahasiswa baru ($mahasiswa1) dibuat dengan nama "Muhammad Alva Rezal", NIM "230202039", dan jurusan "Komputer dan Bisnis".
 - Nama mahasiswa diubah menjadi "Alva" menggunakan metode setnama.
 - Metode tampilkandata dipanggil untuk menampilkan data mahasiswa yang telah diperbarui.
+### C. Inheritance
+### 1). Definisi Kelas 
+```sh
+class Pengguna {
+    protected $nama;
+
+    public function __construct($nama) {
+        $this->nama = $nama;
+    }
+
+    public function getNama() {
+        return $this->nama;
+    }
+}
+```
+- Properti protected $nama: Properti ini dapat diakses oleh kelas itu sendiri dan kelas turunan (subclass).
+- Konstruktor: Menginisialisasi nilai properti nama saat objek Pengguna dibuat.
+- Metode getNama: Mengembalikan nilai dari properti nama.
+### 2). Definisi class Dosen
+```sh
+class Dosen extends Pengguna {
+    private $matakuliah;
+
+    public function __construct($nama, $matakuliah) {
+        parent::__construct($nama);
+        $this->matakuliah = $matakuliah;
+    }
+
+    public function getmatakuliah() {
+        return $this->matakuliah;
+    }
+}
+```
+- Kelas Dosen adalah turunan dari kelas Pengguna: Kelas ini mewarisi properti dan metode dari Pengguna.
+- Properti private $matakuliah: Hanya dapat diakses di dalam kelas Dosen.
+- Konstruktor: Menginisialisasi properti nama menggunakan konstruktor parent (Pengguna) dan matakuliah untuk objek Dosen.
+- Metode getmatakuliah: Mengembalikan nilai dari properti matakuliah.
+### 3). Instansiasi dan Penggunaan class
+```sh
+$pengguna1 = new Dosen("Abdau", "Andi P");
+echo $pengguna1->getNama();
+echo $pengguna1->getmatakuliah();
+```
+- Objek Dosen dibuat dengan nama "Abdau" dan mata kuliah "Andi P": Ini menggunakan konstruktor kelas Dosen yang juga memanggil konstruktor parent.
+- getNama dipanggil: Menampilkan nilai nama yang diwarisi dari kelas Pengguna.
+- getmatakuliah dipanggil: Menampilkan nilai matakuliah yang didefinisikan di kelas Dosen.
+- 
+
 
 
