@@ -1,4 +1,5 @@
 # 🌐💻 Pemrograman Web 2
+- Prih Dianto Abda'U, S.Kom.,M.Kom.
 # 👋 Tentang Saya
 
 Nama  : ✨ Muhammad Alva Rezal 
