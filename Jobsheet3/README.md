@@ -130,6 +130,11 @@ echo $jurnalMahasiswa->manageJurnal();
 Membuat objek dari kelas Dosen dan Mahasiswa, serta menampilkan nama, peran, dan ID (NIDN/NIM). Juga, membuat objek JurnalDosen dan JurnalMahasiswa untuk menampilkan detail pengelolaan jurnal.
 ## 📎 Lampiran
 - Kodingan
-![alt text](
+![alt text](https://github.com/AlvaRezal123/P.WEB2/blob/main/Jobsheet3/jobsheet3.PNG)
+![alt text](https://github.com/AlvaRezal123/P.WEB2/blob/main/Jobsheet3/Jobsheet3(2).PNG)
+![alt text](https://github.com/AlvaRezal123/P.WEB2/blob/main/Jobsheet3/jobsheet3(3).PNG)
+- Output
+![alt text](https://github.com/AlvaRezal123/P.WEB2/blob/main/Jobsheet3/Jobsheet3(4).PNG)
+
 
 
