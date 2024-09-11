@@ -128,5 +128,8 @@ echo $jurnalDosen->manageJurnal() . "<br>";
 echo $jurnalMahasiswa->manageJurnal();
 ```
 Membuat objek dari kelas Dosen dan Mahasiswa, serta menampilkan nama, peran, dan ID (NIDN/NIM). Juga, membuat objek JurnalDosen dan JurnalMahasiswa untuk menampilkan detail pengelolaan jurnal.
+## 📎 Lampiran
+- Kodingan
+![alt text](
 
 
